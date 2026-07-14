@@ -1,0 +1,1250 @@
+[14:41:20] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-1-24.04.2-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
+[14:41:20] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-99-main@81b9122 (2026-01-20T19:08:30Z) for Minecraft 1.21.11
+[14:41:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:41:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[14:41:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - Chunky (1.4.40), ClanSystemPlugin (4.1.7), Geyser-Spigot (2.11.0-SNAPSHOT), GrimAC (2.3.73), LuckPerms (5.5.59), PlaceholderAPI (2.12.3), SimpleLogin (1.16.6), SkinsRestorer (15.12.4), ViaBackwards (5.11.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc))
+[14:41:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:41:35] [ServerMain/INFO]: Loaded 1470 recipes
+[14:41:35] [ServerMain/INFO]: Loaded 1584 advancements
+[14:41:35] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:41:35] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 426.2ms
+[14:41:35] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[14:41:35] [Server thread/INFO]: Loading properties
+[14:41:35] [Server thread/INFO]: This server is running Paper version 1.21.11-99-main@81b9122 (2026-01-20T19:08:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[14:41:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:41:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:41:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:41:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[14:41:38] [Server thread/INFO]: Default game type: SURVIVAL
+[14:41:38] [Server thread/INFO]: Generating keypair
+[14:41:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:41:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:41:38] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:41:40] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+[14:41:40] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+[14:41:40] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:41:41] [Server thread/ERROR]: [ViaBackwards] ================================
+[14:41:41] [Server thread/ERROR]: [ViaBackwards] YOUR VIAVERSION IS OUTDATED (you are running 5.10.0)
+[14:41:41] [Server thread/ERROR]: [ViaBackwards] PLEASE USE VIAVERSION 5.11.0 OR NEWER
+[14:41:41] [Server thread/ERROR]: [ViaBackwards] LINK: https://ci.viaversion.com/
+[14:41:41] [Server thread/ERROR]: [ViaBackwards] VIABACKWARDS WILL NOW DISABLE
+[14:41:41] [Server thread/ERROR]: [ViaBackwards] ================================
+[14:41:41] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+[14:41:42] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[14:41:42] [Server thread/INFO]: [floodgate] Took 1,207ms to boot Floodgate
+[14:41:42] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[14:41:42] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[14:41:42] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.0-SNAPSHOT
+[14:41:42] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[14:41:42] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[14:41:42] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.4
+[14:41:42] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[14:41:42] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.73
+[14:41:42] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[14:41:45] [Server thread/ERROR]: [GrimAC] Failed to reload config: java.lang.RuntimeException: Failed to load config
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.config.ConfigManagerFileImpl.reload(ConfigManagerFileImpl.java:65)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimExternalAPI.successfulReload(GrimExternalAPI.java:162)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimExternalAPI.reload(GrimExternalAPI.java:145)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimExternalAPI.load(GrimExternalAPI.java:124)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.lambda$new$0(InitManager.java:42)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.load(InitManager.java:73)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimAPI.load(GrimAPI.java:80)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.GrimACBukkitLoaderPlugin.onLoad(GrimACBukkitLoaderPlugin.java:83)
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:555)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:320)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: ac.grim.grimac.shaded.configuralize.ParseException: Error parsing config file punishments.yml: while parsing a block mapping
+ in 'string', line 10, column 3:
+      Simulation:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'string', line 99, column 4:
+       Combat:
+       ^
+
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.configuralize.Provider.load(Provider.java:33)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.configuralize.Provider.loadValues(Provider.java:53)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.configuralize.Provider.load(Provider.java:50)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.configuralize.DynamicConfig.loadAll(DynamicConfig.java:98)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.config.ConfigManagerFileImpl.reload(ConfigManagerFileImpl.java:63)
+	... 16 more
+Caused by: while parsing a block mapping
+ in 'string', line 10, column 3:
+      Simulation:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'string', line 99, column 4:
+       Combat:
+       ^
+
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.snakeyaml.Yaml.loadAs(Yaml.java:473)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.configuralize.Provider.load(Provider.java:26)
+	... 20 more
+
+[14:41:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.59
+[14:41:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:41:46] [Server thread/INFO]: [ClanSystemPlugin] Loading server plugin ClanSystemPlugin v4.1.7
+[14:41:46] [Server thread/INFO]: [SimpleLogin] Loading server plugin SimpleLogin v1.16.6
+[14:41:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:41:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.4
+[14:41:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[14:41:47] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[14:41:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:41:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.4]
+[14:41:48] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[14:41:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.59
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.4
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: a5b2c20
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:41:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[14:41:48] [Server thread/INFO]:         __    
+[14:41:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.59
+[14:41:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:41:48] [Server thread/INFO]: 
+[14:41:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:41:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:41:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:41:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1467ms)
+[14:41:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:41:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:41:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:41:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:41:49] [Server thread/INFO]: Preparing level "world"
+[14:41:49] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[14:41:49] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[14:41:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[14:41:50] [Server thread/INFO]: Prepared spawn area in 3 ms
+[14:41:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[14:41:50] [Server thread/INFO]: Prepared spawn area in 5 ms
+[14:41:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[14:41:50] [Server thread/INFO]: Prepared spawn area in 0 ms
+[14:41:50] [Server thread/INFO]: Done preparing level "world" (0.905s)
+[14:41:50] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+[14:41:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[14:41:50] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+[14:41:51] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[14:41:51] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:41:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[14:41:51] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.0-SNAPSHOT
+[14:41:52] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[14:41:52] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.73
+[14:41:52] [Server thread/INFO]: [GrimAC] Registering packets...
+[14:41:52] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[14:41:52] [Server thread/ERROR]: [GrimAC] Failed to start UpdateChecker: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.init.start.UpdateChecker.start(UpdateChecker.java:9)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.start(InitManager.java:84)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimAPI.start(GrimAPI.java:86)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.GrimACBukkitLoaderPlugin.onEnable(GrimACBukkitLoaderPlugin.java:102)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:41:52] [Server thread/ERROR]: [GrimAC] Failed to start AlertManagerImpl: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because "config" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.reload(AlertManagerImpl.java:81)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.start(AlertManagerImpl.java:76)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.start(InitManager.java:84)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimAPI.start(GrimAPI.java:86)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.GrimACBukkitLoaderPlugin.onEnable(GrimACBukkitLoaderPlugin.java:102)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:41:52] [Server thread/ERROR]: [GrimAC] Failed to load Discord webhook configuration: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because "config" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.DiscordManager.reload(DiscordManager.java:85)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.DiscordManager.start(DiscordManager.java:75)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.start(InitManager.java:84)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimAPI.start(GrimAPI.java:86)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.GrimACBukkitLoaderPlugin.onEnable(GrimACBukkitLoaderPlugin.java:102)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:41:52] [Server thread/ERROR]: [GrimAC] Failed to start SpectateManager: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getStringListElse(String, java.util.List)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.SpectateManager.reload(SpectateManager.java:38)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.SpectateManager.start(SpectateManager.java:32)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.start(InitManager.java:84)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimAPI.start(GrimAPI.java:86)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.GrimACBukkitLoaderPlugin.onEnable(GrimACBukkitLoaderPlugin.java:102)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:41:52] [Server thread/ERROR]: [GrimAC] Failed to start ViolationDatabaseManager: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because "cfg" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.violationdatabase.ViolationDatabaseManager.load(ViolationDatabaseManager.java:45)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.violationdatabase.ViolationDatabaseManager.start(ViolationDatabaseManager.java:35)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.start(InitManager.java:84)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimAPI.start(GrimAPI.java:86)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.GrimACBukkitLoaderPlugin.onEnable(GrimACBukkitLoaderPlugin.java:102)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:41:52] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
+[14:41:52] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
+[14:41:52] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[14:41:52] [Server thread/ERROR]: [GrimAC] Failed to start BukkitTickEndEvent: java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.init.start.AbstractTickEndEvent.shouldInjectEndTick(AbstractTickEndEvent.java:19)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.initables.BukkitTickEndEvent.start(BukkitTickEndEvent.java:45)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.InitManager.start(InitManager.java:84)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.GrimAPI.start(GrimAPI.java:86)
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.platform.bukkit.GrimACBukkitLoaderPlugin.onEnable(GrimACBukkitLoaderPlugin.java:102)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1258)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:41:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.73]
+[14:41:52] [Server thread/INFO]: [ClanSystemPlugin] Enabling ClanSystemPlugin v4.1.7
+[14:41:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clan [1.0]
+[14:41:52] [Server thread/INFO]: [ClanSystemPlugin] Clan placeholders registered.
+[14:41:52] [Server thread/INFO]: [ClanSystemPlugin] ClanSystem successfully enabled!
+[14:41:53] [Server thread/INFO]: [SimpleLogin] Enabling SimpleLogin v1.16.6
+[14:41:53] [Server thread/INFO]: [SimpleLogin] SimpleLogin enabled!
+[14:41:53] [ForkJoinPool.commonPool-worker-1/INFO]: [SimpleLogin] Plugin is up to date (1.16.6)
+[14:41:53] [Server thread/INFO]: [spark] Starting background profiler...
+[14:41:54] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:41:54] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[14:41:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:41:54] [Server thread/INFO]: [Geyser-Spigot] 
+[14:41:54] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.0-b1196 (git-master-f9e6a6c)
+[14:41:54] [Server thread/INFO]: [Geyser-Spigot] 
+[14:41:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:41:56] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[14:41:56] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[14:41:56] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[14:41:58] [Server thread/WARN]: [Geyser-Spigot] Custom item geysermc:furnace_minecart overrides the vanilla item model minecraft:furnace_minecart without additional predicates!
+[14:41:58] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
+[14:41:59] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19907
+[14:41:59] [Server thread/INFO]: [Geyser-Spigot] Done (4.621s)! Run /geyser help for help!
+[14:41:59] [Server thread/INFO]: Running delayed init tasks
+[14:41:59] [Server thread/INFO]: Done (40.904s)! For help, type "help"
+[14:41:59] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:41:59] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.11.0, you're on: 5.10.0
+[14:41:59] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 release(s) and 33 build(s) behind!
+[14:41:59] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[14:44:32] [User Authenticator #0/INFO]: UUID of player pngToball is 7aa72665-633f-384a-ad9a-055e37053c0c
+[14:44:32] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms]
+[14:44:32] [Netty Epoll IO #1/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:44:37] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:44:37] [Server thread/INFO]: pngToball joined the game
+[14:44:37] [Server thread/INFO]: pngToball[/127.180.174.198:42987] logged in with entity id 1 at ([world]20.44086350815171, 66.0, -52.53423768383694)
+[14:44:46] [Server thread/INFO]: pngToball issued server command: /login 156928828
+[14:47:23] [User Authenticator #1/INFO]: UUID of player efrsfwffh3534 is b5c64446-93d7-3245-af25-6131a59c2524
+[14:47:23] [Netty Epoll IO #0/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:47:24] [User Authenticator #1/INFO]: UUID of player laka is 6dba741f-f098-361e-8340-580000f75804
+[14:47:24] [Netty Epoll IO #1/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:47:25] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:47:25] [Server thread/INFO]: efrsfwffh3534 joined the game
+[14:47:25] [Server thread/INFO]: efrsfwffh3534[/127.0.87.198:39641] logged in with entity id 916 at ([world]16.5, 37.0, -45.5)
+[14:47:26] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:47:26] [Server thread/INFO]: laka joined the game
+[14:47:26] [Server thread/INFO]: laka[/127.177.111.23:59211] logged in with entity id 919 at ([world]25.5, 69.0, -52.5)
+[14:47:42] [Server thread/INFO]: laka issued server command: /re
+[14:47:44] [Server thread/INFO]: efrsfwffh3534 issued server command: /register pablo123 pablo123
+[14:47:44] [Server thread/INFO]: pngToball issued server command: /gamemode survival
+[14:47:44] [Server thread/INFO]: [pngToball: Set own game mode to Survival Mode]
+[14:47:56] [Server thread/INFO]: efrsfwffh3534 fell from a high place
+[14:47:59] [Server thread/INFO]: laka issued server command: /register laka0188 laka0188
+[14:48:01] [Async Chat Thread - #0/INFO]: [Not Secure] <pngToball> JAJAJAJAJAJAJAJAAJ
+[14:50:19] [Server thread/INFO]: laka has made the advancement [Stone Age]
+[14:50:22] [Async Chat Thread - #1/INFO]: [Not Secure] <pngToball> se pueden poner los chunks en 12 pq esa es la distancia q tiene el server de simulacion y para ver
+[14:50:30] [Server thread/INFO]: efrsfwffh3534 has made the advancement [Stone Age]
+[14:50:50] [Server thread/INFO]: laka has made the advancement [Getting an Upgrade]
+[14:51:10] [Server thread/INFO]: efrsfwffh3534 has made the advancement [Getting an Upgrade]
+[14:52:04] [Server thread/INFO]: efrsfwffh3534 was blown up by Creeper
+[14:52:11] [Server thread/WARN]: efrsfwffh3534 was kicked for floating too long!
+[14:52:11] [Server thread/INFO]: efrsfwffh3534 lost connection: Flying is not enabled on this server
+[14:52:11] [Server thread/INFO]: efrsfwffh3534 left the game
+[14:52:14] [Server thread/INFO]: pngToball has made the advancement [Getting an Upgrade]
+[14:52:36] [User Authenticator #2/INFO]: UUID of player efrsfwffh3534 is b5c64446-93d7-3245-af25-6131a59c2524
+[14:52:36] [Netty Epoll IO #2/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:52:37] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:52:37] [Server thread/INFO]: efrsfwffh3534 joined the game
+[14:52:37] [Server thread/INFO]: efrsfwffh3534[/127.0.87.198:59139] logged in with entity id 2385 at ([world]8.906778207893892, 72.01865970983172, -56.56066113606267)
+[14:52:43] [Server thread/WARN]: efrsfwffh3534 was kicked for floating too long!
+[14:52:43] [Server thread/INFO]: efrsfwffh3534 lost connection: Flying is not enabled on this server
+[14:52:43] [Server thread/INFO]: efrsfwffh3534 left the game
+[14:53:02] [User Authenticator #2/INFO]: UUID of player efrsfwffh3534 is b5c64446-93d7-3245-af25-6131a59c2524
+[14:53:02] [Netty Epoll IO #3/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:53:03] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:53:03] [Server thread/INFO]: efrsfwffh3534 joined the game
+[14:53:03] [Server thread/INFO]: efrsfwffh3534[/127.0.87.198:33419] logged in with entity id 2484 at ([world]8.906778207893892, 71.64202921159307, -56.56066113606267)
+[14:53:07] [Server thread/WARN]: efrsfwffh3534 was kicked for floating too long!
+[14:53:07] [Server thread/INFO]: efrsfwffh3534 lost connection: Flying is not enabled on this server
+[14:53:08] [Server thread/INFO]: efrsfwffh3534 left the game
+[14:53:10] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username NoseXd1237 (1001)
+[14:53:10] [localSession-7-2/INFO]: [Geyser-Spigot] NoseXd1237 (logged in as: NoseXd1237) has connected to the Java server
+[14:53:11] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:53:11] [Server thread/INFO]: [floodgate] Floodgate player logged in as .NoseXd1237 joined (UUID: 00000000-0000-0000-0009-01f0bc65829b)
+[14:53:11] [Server thread/INFO]: .NoseXd1237 joined the game
+[14:53:11] [Server thread/INFO]: .NoseXd1237[/127.25.176.112:0] logged in with entity id 2524 at ([world]23.5, 58.0, -38.5)
+[14:53:12] [User Authenticator #2/INFO]: UUID of player efrsfwffh3534 is b5c64446-93d7-3245-af25-6131a59c2524
+[14:53:12] [Netty Epoll IO #0/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:53:13] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:53:13] [Server thread/INFO]: efrsfwffh3534 joined the game
+[14:53:13] [Server thread/INFO]: efrsfwffh3534[/127.0.87.198:43201] logged in with entity id 2530 at ([world]8.906778207893892, 71.26539871335441, -56.56066113606267)
+[14:53:14] [Async Chat Thread - #3/INFO]: [Not Secure] <pngToball> qe le pasa a ese tio
+[14:53:17] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username Calitopoaka (1001)
+[14:53:17] [localSession-7-3/INFO]: [Geyser-Spigot] Calitopoaka (logged in as: Calitopoaka) has connected to the Java server
+[14:53:17] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runAllTasksAtTickStart(MinecraftServer.java:1185) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1671) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1340) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:53:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Calitopoaka joined (UUID: 00000000-0000-0000-0009-01fd51e926b9)
+[14:53:17] [Server thread/INFO]: .Calitopoaka joined the game
+[14:53:17] [Server thread/INFO]: .Calitopoaka[/127.125.27.47:0] logged in with entity id 2549 at ([world]19.5, 58.0, -38.5)
+[14:53:20] [Async Chat Thread - #3/INFO]: [Not Secure] <laka> yo q se
+[14:53:22] [Server thread/INFO]: efrsfwffh3534 issued server command: /login pablo123
+[14:53:33] [Async Chat Thread - #3/INFO]: [Not Secure] <laka> no veo nada
+[14:53:37] [Async Chat Thread - #3/INFO]: [Not Secure] <pngToball> como
+[14:53:51] [Async Chat Thread - #3/INFO]: [Not Secure] <laka> nada nada
+[14:53:56] [Async Chat Thread - #3/INFO]: [Not Secure] <pngToball> manda foto
+[14:54:02] [Async Chat Thread - #3/INFO]: [Not Secure] <pngToball> a priv
+[14:54:14] [Server thread/INFO]: pngToball has made the advancement [Acquire Hardware]
+[14:54:16] [Async Chat Thread - #3/INFO]: [Not Secure] <laka> esq no le aument el brillo y es de noche
+[14:54:19] [Async Chat Thread - #3/INFO]: [Not Secure] <laka> XD
+[14:54:22] [Async Chat Thread - #3/INFO]: [Not Secure] <pngToball> retra
+[14:54:54] [Server thread/INFO]: laka has made the advancement [Monster Hunter]
+[14:55:16] [Server thread/INFO]: efrsfwffh3534 has made the advancement [Monster Hunter]
+[14:55:18] [Server thread/INFO]: .NoseXd1237 issued server command: /register semen semen
+[14:55:31] [Server thread/INFO]: .NoseXd1237 issued server command: /register semensito semensito
+[14:55:35] [Async Chat Thread - #5/INFO]: [Not Secure] <laka> usamos aternos?
+[14:55:42] [Async Chat Thread - #5/INFO]: [Not Secure] <pngToball> como
+[14:55:53] [Async Chat Thread - #5/INFO]: [Not Secure] <laka> el server es de aternos?
+[14:55:56] [Async Chat Thread - #5/INFO]: [Not Secure] <pngToball> nono
+[14:56:05] [Async Chat Thread - #5/INFO]: [Not Secure] <laka> deanm
+[14:56:14] [Async Chat Thread - #5/INFO]: [Not Secure] <pngToball> tiene 12 de ram el sv
+[14:56:18] [Async Chat Thread - #5/INFO]: [Not Secure] <pngToball> y ns cuanto de espacio
+[14:56:59] [Async Chat Thread - #5/INFO]: [Not Secure] <efrsfwffh3534> altiro vuelvo chavos
+[14:57:00] [Server thread/INFO]: efrsfwffh3534 lost connection: Disconnected
+[14:57:00] [Server thread/INFO]: efrsfwffh3534 left the game
+[14:58:08] [Server thread/INFO]: pngToball issued server command: /msg .Calitopoaka usa el /register para registrarte
+[14:58:13] [Server thread/INFO]: pngToball issued server command: /r x eso no te deja
+[14:58:17] [Server thread/INFO]: .Calitopoaka lost connection: Login timed out after 300 seconds.
+[14:58:17] [localSession-7-3/INFO]: [Geyser-Spigot] Calitopoaka has disconnected from the Java server because of §r§cLogin timed out after 300 seconds.
+[14:58:17] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Calitopoaka disconnected
+[14:58:17] [Server thread/INFO]: .Calitopoaka left the game
+[14:58:23] [Server thread/INFO]: laka lost connection: Disconnected
+[14:58:23] [Server thread/INFO]: laka left the game
+[14:58:26] [User Authenticator #3/INFO]: UUID of player laka is 6dba741f-f098-361e-8340-580000f75804
+[14:58:26] [Netty Epoll IO #2/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:58:27] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[14:58:27] [Server thread/INFO]: laka joined the game
+[14:58:27] [Server thread/INFO]: laka[/127.177.111.23:48209] logged in with entity id 3951 at ([world]16.75896802445311, 34.0, -46.30000001192093)
+[14:58:42] [Server thread/INFO]: laka issued server command: /login laka0188
+[14:59:24] [Server thread/INFO]: laka was slain by Zombie
+[14:59:25] [Async Chat Thread - #9/INFO]: [Not Secure] <.NoseXd1237> voy con un lag de locos
+[14:59:57] [Geyser Spigot connection thread-6-3/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] An error occurred while processing a packet from .NoseXd1237 (state: PLAY, clientVersion: 1.21.11, serverVersion: 1.21.11, preVia: true)
+io.netty.handler.codec.DecoderException: ac.grim.grimac.shaded.com.github.retrooper.packetevents.exception.PacketProcessException: Failed to map the Packet ID 67 to a PacketType constant. Bound: SERVER, Connection state: PLAY, Server version: 1.21.11
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:101) ~[netty-codec-base-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:201) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:163) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-base-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-base-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:356) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:293) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:354) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:324) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:470) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.local.LocalChannel.access$300(LocalChannel.java:54) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.local.LocalChannel$4.run(LocalChannel.java:428) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: ac.grim.grimac.shaded.com.github.retrooper.packetevents.exception.PacketProcessException: Failed to map the Packet ID 67 to a PacketType constant. Bound: SERVER, Connection state: PLAY, Server version: 1.21.11
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.ProtocolPacketEvent.<init>(ProtocolPacketEvent.java:100) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.PacketReceiveEvent.<init>(PacketReceiveEvent.java:38) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.simple.PacketPlayReceiveEvent.<init>(PacketPlayReceiveEvent.java:39) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.EventCreationUtil.createReceiveEvent(EventCreationUtil.java:38) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.util.PacketEventsImplHelper.handleServerBoundPacket(PacketEventsImplHelper.java:99) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.read(PacketEventsDecoder.java:68) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsDecoder.decode(PacketEventsDecoder.java:43) ~[?:?]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:91) ~[netty-codec-base-4.2.7.Final.jar:4.2.7.Final]
+	... 23 more
+[14:59:57] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .NoseXd1237 disconnected
+[14:59:57] [localSession-7-2/INFO]: [Geyser-Spigot] NoseXd1237 has disconnected from the Java server because of Invalid packet
+[14:59:57] [Geyser Spigot connection thread-6-3/INFO]: [packetevents] Disconnected .NoseXd1237 due to an invalid packet!
+[14:59:57] [Server thread/INFO]: .NoseXd1237 lost connection: Disconnected
+[14:59:57] [Server thread/INFO]: .NoseXd1237 left the game
+[15:01:22] [Server thread/INFO]: pngToball issued server command: /grim alerts
+[15:01:22] [Server thread/ERROR]: [GrimAC] Exception executing command handler
+java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because "rawMessage" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.sendToggleMessage(AlertManagerImpl.java:116) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.setPlayerStateAndNotify(AlertManagerImpl.java:282) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.setAlertsEnabled(AlertManagerImpl.java:350) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.toggleAlerts(AlertManagerImpl.java:340) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.command.commands.GrimAlerts.handleAlerts(GrimAlerts.java:29) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.CommandExecutionHandler.executeFuture(CommandExecutionHandler.java:91) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.ExecutionCoordinatorImpl.lambda$coordinateExecution$4(ExecutionCoordinatorImpl.java:121) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.ExecutionCoordinatorImpl$NonSchedulingExecutor.execute(ExecutionCoordinatorImpl.java:53) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1184) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.thenComposeAsync(CompletableFuture.java:2352) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.ExecutionCoordinatorImpl.coordinateExecution(ExecutionCoordinatorImpl.java:104) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.StandardCommandExecutor.executeCommand(StandardCommandExecutor.java:91) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.StandardCommandExecutor.executeCommand(StandardCommandExecutor.java:65) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.brigadier.CloudBrigadierCommand.run(CloudBrigadierCommand.java:94) ~[?:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:362) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1530) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1510) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:01:37] [Server thread/INFO]: Nothing changed. The player already is an operator
+[15:01:42] [Server thread/INFO]: pngToball issued server command: /grim alerts
+[15:01:42] [Server thread/ERROR]: [GrimAC] Exception executing command handler
+java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because "rawMessage" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.sendToggleMessage(AlertManagerImpl.java:116) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.setPlayerStateAndNotify(AlertManagerImpl.java:282) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.setAlertsEnabled(AlertManagerImpl.java:350) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.manager.AlertManagerImpl.toggleAlerts(AlertManagerImpl.java:340) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.command.commands.GrimAlerts.handleAlerts(GrimAlerts.java:29) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.CommandExecutionHandler.executeFuture(CommandExecutionHandler.java:91) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.ExecutionCoordinatorImpl.lambda$coordinateExecution$4(ExecutionCoordinatorImpl.java:121) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.ExecutionCoordinatorImpl$NonSchedulingExecutor.execute(ExecutionCoordinatorImpl.java:53) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1184) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.thenComposeAsync(CompletableFuture.java:2352) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.execution.ExecutionCoordinatorImpl.coordinateExecution(ExecutionCoordinatorImpl.java:104) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.StandardCommandExecutor.executeCommand(StandardCommandExecutor.java:91) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.StandardCommandExecutor.executeCommand(StandardCommandExecutor.java:65) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.brigadier.CloudBrigadierCommand.run(CloudBrigadierCommand.java:94) ~[?:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:362) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1530) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1510) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:01:43] [User Authenticator #4/INFO]: UUID of player efrsfwffh3534 is b5c64446-93d7-3245-af25-6131a59c2524
+[15:01:43] [Netty Epoll IO #0/WARN]: [io.netty.util.concurrent.DefaultPromise] An exception was thrown by ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder$$Lambda/0x00007e3f2a1afae8.operationComplete()
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getDoubleElse(String, double)" because "configuration" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:138) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.reload(Check.java:20) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.GrimProcessor.reload(GrimProcessor.java:14) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.Check.<init>(Check.java:59) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.checks.impl.packetorder.PacketOrderProcessor.<init>(PacketOrderProcessor.java:19) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.player.GrimPlayer.<init>(GrimPlayer.java:123) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.PlayerDataManager.addUser(PlayerDataManager.java:69) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.lambda$onPacketSend$0(PacketPlayerJoinQuit.java:21) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.injector.handlers.PacketEventsEncoder.lambda$handleClientBoundPacket$0(PacketEventsEncoder.java:111) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:639) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:119) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.PromiseNotificationUtil.trySuccess(PromiseNotificationUtil.java:48) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.safeSuccess(ChannelOutboundBuffer.java:747) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.remove(ChannelOutboundBuffer.java:302) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundBuffer.removeBytes(ChannelOutboundBuffer.java:382) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel.doWriteBytes(AbstractEpollChannel.java:381) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.writeBytes(AbstractEpollStreamChannel.java:260) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWriteSingle(AbstractEpollStreamChannel.java:471) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel.doWrite(AbstractEpollStreamChannel.java:429) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:802) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:601) ~[netty-transport-classes-epoll-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:766) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1391) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:789) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flushNow(FlushConsolidationHandler.java:204) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.flush(FlushConsolidationHandler.java:138) ~[netty-handler-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:791) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:775) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:761) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:125) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:793) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:835) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1041) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.Channel.writeAndFlush(Channel.java:262) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.Connection.lambda$sendPacket$10(Connection.java:451) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:01:44] [Server thread/INFO]: pngToball issued server command: /grim
+[15:01:44] [Server thread/ERROR]: [GrimAC] An unhandled exception was thrown during command execution
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getStringElse(String, String)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.utils.anticheat.MessageUtil.miniMessage(MessageUtil.java:147) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.command.CloudCommandService.lambda$registerCommands$0(CloudCommandService.java:68) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.command.CloudCommandService.lambda$registerExceptionHandler$1(CloudCommandService.java:74) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.exception.handling.ExceptionController.handleException(ExceptionController.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.StandardCommandExecutor.lambda$executeCommand$0(StandardCommandExecutor.java:70) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:887) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2357) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.StandardCommandExecutor.executeCommand(StandardCommandExecutor.java:65) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.incendo.cloud.brigadier.CloudBrigadierCommand.run(CloudBrigadierCommand.java:94) ~[?:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:374) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:362) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1530) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1510) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:01:45] [Server thread/WARN]: [ac.grim.grimac.shaded.com.github.retrooper.packetevents.PacketEventsAPI] PacketEvents caught an unhandled exception while calling your listener.
+java.lang.NullPointerException: Cannot invoke "ac.grim.grimac.api.config.ConfigManager.getBooleanElse(String, boolean)" because the return value of "ac.grim.grimac.manager.config.BaseConfigManager.getConfig()" is null
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.events.packets.PacketPlayerJoinQuit.onUserLogin(PacketPlayerJoinQuit.java:42) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.UserLoginEvent.call(UserLoginEvent.java:47) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:85) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:103) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.com.github.retrooper.packetevents.event.EventManager.callEvent(EventManager.java:67) ~[?:?]
+	at grimac-bukkit-2.3.73.jar//ac.grim.grimac.shaded.io.github.retrooper.packetevents.bukkit.InternalGlobalBukkitListener.onPlayerJoin(InternalGlobalBukkitListener.java:34) ~[?:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.11-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:241) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:310) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:138) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:207) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1504) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1230) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1346) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-99-81b9122]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:01:45] [Server thread/INFO]: efrsfwffh3534 joined the game
+[15:01:45] [Server thread/INFO]: efrsfwffh3534[/127.0.87.198:54693] logged in with entity id 5289 at ([world]118.69999998807907, 68.0, 200.1817477628876)

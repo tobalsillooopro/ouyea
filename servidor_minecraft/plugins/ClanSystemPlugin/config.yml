@@ -1,0 +1,47 @@
+
+# Thanks for using my ClanSystem!
+# This is the config, here you can make some basic changes
+# ( less options = less problems... right? ;) )
+
+
+# you can find the clans in the clans.yml file
+
+
+# if your server is using the TAB Plugin or any other Plugin that overwrites suffixes, then make sure to install
+# PlaceholderAPI to easily set a Placeholder
+
+# here's what you'll need: '%clan_suffix%'
+
+# for example (original groups.yml of TAB v6.0.1):
+
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+
+#Player:
+#  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+#  tagprefix: "&2&lPlayer &3"
+#  customtabname: "%player%"
+#  tabsuffix: "%clan_suffix%"
+#  tagsuffix: "%clan_suffix%"
+
+# default settings for all groups
+#_DEFAULT_:
+#  tabprefix: "%luckperms-prefix%"
+#  tagprefix: "%luckperms-prefix%"
+#  customtabname: "%player%"
+#  tabsuffix: "%clan_suffix%"
+#  tagsuffix: "%clan_suffix%"
+
+#per-world:
+#  world1:
+#    Owner:
+#      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#      tagprefix: "&2&lOwner &a"
+#      customtabname: "%player%"
+#      tabsuffix: "%clan_suffix%"
+#      tagsuffix: "%clan_suffix%"
+
+
+
+max-tag-length: 3                          #max length of the clan-tag | default: 3 | recommended: 1-4
